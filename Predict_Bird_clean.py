@@ -48,7 +48,7 @@ def loadModel():
                    loss="sparse_categorical_crossentropy",
                    metrics=["accuracy"])
 
-    model.load_weights("C:/Users/denfo/Desktop/ESCP/Applied Data Science Research Project/my_model.h5")
+    model.load_weights("my_model.h5")
     return model
 
 
@@ -103,4 +103,3 @@ if buffer:
 showlist = st.checkbox('Show list of available birds')
 if showlist:
     st.write(" | ".join(str(x) for x in classes))
-
