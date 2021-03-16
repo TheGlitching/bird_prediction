@@ -1,0 +1,4 @@
+tensorflow==2.3.0
+streamlit==0.78.0
+vit_keras==0.0.14
+opencv-python-headless==4.5.1.48
